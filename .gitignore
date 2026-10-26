@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Model weights and downloaded model files
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Generated datasets
+data/
+
+# Generated reports (we will selectively add useful reports)
+reports/
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
